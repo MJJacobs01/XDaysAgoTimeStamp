@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Text(text = convertLongTimeToDateAndTimeStamp(milliSeconds) ?: "No Time given")
+                        Text(text = convertLongTimeToDateAndTimeStamp(milliSeconds))
                     }
                 }
             }
